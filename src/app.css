@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-	background: black;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 }

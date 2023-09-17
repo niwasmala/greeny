@@ -20,9 +20,9 @@
 </script>
 
 <svelte:head>
-  <title>EWA Employee</title>
+  <title>Greeny</title>
 </svelte:head>
 
-<div class="container max-w-lg mx-auto min-h-screen p-4">
+<div class="container max-w-lg mx-auto min-h-screen bg-neutral-50">
   <slot />
 </div>
