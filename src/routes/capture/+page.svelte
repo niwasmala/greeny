@@ -60,25 +60,27 @@
 	}
 
 	onMount(() => {
-		requestCamera()
+		// requestCamera()
 	})
 </script>
 
 <div class="max-w-screen sm:max-w-lg w-full sm:mx-auto fixed z-30 flex flex-col p-4">
-	<a href="" class="w-14 flex bg-white p-4 rounded-full">
+	<a href="/home" class="w-14 flex bg-white p-4 rounded-full">
 		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 		  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
 		</svg>
 	</a>
 </div>
 
-<!-- <div class="max-w-screen sm:max-w-lg w-full sm:mx-auto fixed z-20 w-screen h-screen flex items-center justify-center">
-	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-72 h-72 text-neutral-100">
+<div class="max-w-screen sm:max-w-lg w-full sm:mx-auto fixed z-20 w-screen h-screen flex items-center justify-center">
+	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-72 h-72 text-neutral-100 opacity-40">
 	  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
 	</svg>
-</div> -->
+</div>
 
-{#if mode === 'image'}
+<div class="max-w-screen sm:max-w-lg w-full sm:mx-auto fixed z-0 w-screen h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('/encyclopedia/sunflower.jpg')"></div>
+
+<!-- {#if mode === 'image'}
 	<video bind:this={videoCapture} autoplay class="max-w-screen sm:max-w-lg w-full h-screen sm:mx-auto fixed z-30 "></video>
   <canvas bind:this={canvas} class="fixed z-10 w-screen h-screen"></canvas>
   <img bind:this={imageCapture} class="fixed z-10 w-screen h-screen" alt="" />
@@ -88,9 +90,7 @@
 {/if}
 {#if mode === 'audio'}
 	<div bind:this={audioCapture} class="fixed z-10 w-screen h-screen"></div>
-{/if}
-
-<!-- <div class="max-w-screen sm:max-w-lg w-full sm:mx-auto fixed z-0 w-screen h-screen bg-cover" style="background-image: url('/missions/kawah-putih.jpg')"></div> -->
+{/if} -->
 
 <div class="max-w-screen sm:max-w-lg w-full sm:mx-auto fixed z-30 bottom-2 sm:bottom-5 px-0 sm:px-4 flex flex-col justify-center items-center gap-4">
 	<div class="flex flex-row gap-4">

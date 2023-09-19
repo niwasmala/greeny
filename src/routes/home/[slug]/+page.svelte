@@ -1,4 +1,4 @@
-<div class="bg-white min-h-screen">
+<div class="bg-white min-h-screen bg-cover bg-no-repeat bg-right-center">
 	<div class="p-4">
 		<a href="/home" class="bg-white/80 rounded-full w-10 h-10 flex flex-col items-center justify-center">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -7,7 +7,7 @@
 		</a>
 	</div>
 
-	<div class="bg-white w-full grid grid-cols-3">
+	<div class="w-full grid grid-cols-3">
 		<div class="p-4 col-span-2 flex flex-col gap-6">
 			<div class="flex flex-col gap-1">
 				<div class="text-4xl">
