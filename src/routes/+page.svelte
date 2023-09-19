@@ -31,11 +31,11 @@
       </div>
     </div>
 
-    <a href="/register" class="w-full rounded-md bg-neutral-900 text-white text-center py-2 mb-2">
+    <a href="/home" class="w-full rounded-md bg-neutral-900 text-white text-center py-2 mb-2">
       Join Now
     </a>
 
-    <a href="/login" class="text-neutral-800 font-regular underline w-full text-center text-sm py-2">
+    <a href="/home" class="text-neutral-800 font-regular underline w-full text-center text-sm py-2">
       Already have an account?
     </a>
     
