@@ -53,7 +53,7 @@
 			<a href="/home/mount-papandayan" class="h-40 w-full flex flex-col justify-end  items-center bg-neutral-200 rounded-xl bg-cover bg-no-repeat bg-center" style="background-image: url('/encyclopedia/mount-papandayan.jpg')">
 				<div class="w-full rounded-b-xl bg-neutral-900/50 text-white py-2 flex flex-col items-center">
 					<div class="text-sm">
-						Mount Papandayan
+						Mt Papandayan
 					</div>
 					<div class="text-xs">
 						Landscape
